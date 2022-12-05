@@ -7,7 +7,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-              <a class="navbar-brand" href="#"><img class="logo-dark hidden-xs"  src="images/logo.png" alt="" /> <img class="logo-dark hidden-lg hidden-md hidden-sm"  src="images/mobile_logo.png" alt="" /></a> </div>
+              <a class="navbar-brand" href="#"><img class="logo-dark hidden-xs"  src="{{asset('images/Pesante.png')}}" alt="" /> <img class="logo-dark hidden-lg hidden-md hidden-sm"  src="{{asset('images/pesante.png')}}" alt="" /></a> </div>
             
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="main-menu collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -18,7 +18,7 @@
                     <li><a href="02-homepage.html">Home Page 2</a></li>
                   </ul>
                 </li>
-                <li><a href="aboutus.html">About</a></li>
+                <li><a href="{{route('about')}}">About</a></li>
                 <li><a href="service.html">Service</a></li>
                 <li role="presentation" class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Pages <span class="caret"></span> </a>
                   <ul class="dropdown-menu">
@@ -28,7 +28,7 @@
                     <li><a href="blog_post.html">Single Post</a></li>
                   </ul>
                 </li>
-                <li><a href="contacts.html">Contact</a></li>
+                <li><a href="{{route('contact')}}">Contact</a></li>
               </ul>
             </div>
             <!-- /.navbar-collapse --> 

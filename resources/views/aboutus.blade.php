@@ -74,7 +74,7 @@
             </div>
           </div>
         </div>
-        <!--End single team member--> 
+        <!--End single team member-->
         <!--Start single team member-->
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="single-team-member text-center">
@@ -182,101 +182,8 @@
   </section>
   <!--Testimonails Section End--> 
   
-  <!--Footer-->
-  <footer>
-    <div class="container-fluid footerbg">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3"> <a href="#" class="footer-logo"> <img class="logo-dark"  src="images/logo2.png" alt="logo2" /> </a>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <div class="about_info">
-              <p><i class="fa fa-map-marker" aria-hidden="true"></i> Lorem Ipsum is simply dummy</p>
-              <p><i class="fa fa-envelope" aria-hidden="true"></i> infor@example.com</p>
-              <p><i class="fa fa-phone" aria-hidden="true"></i> +91807186985</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <h4>Services</h4>
-            <ul>
-              <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Cleaning</a></li>
-              <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Electrical</a></li>
-              <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Plumbing</a></li>
-              <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Appliances</a></li>
-              <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Carpentry</a></li>
-            </ul>
-            <ul>
-              <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Geyser Service</a></li>
-              <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Vehicle Care</a></li>
-              <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Pest Control</a></li>
-              <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Panting</a></li>
-            </ul>
-          </div>
-          <div class="col-md-2">
-            <h4>About Us</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h4>Singn up Newsletter</h4>
-            <form action="#" method="post" class="newsletter">
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Enter Email Address">
-                <span class="input-group-btn">
-                <button class="btn btn-default" type="button"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-                </span> </div>
-              <!-- /input-group -->
-            </form>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-          </div>
-        </div>
-        <div class="top_awro pull-right" id="back-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i> </div>
-      </div>
-    </div>
-    
-    <!--Boottom Footer-->
-    <div class="container-fluid bottom-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p class="copyright pull-left">&copy; Hire A Helper 2017 All Right Reserved</p>
-            <ul class="footer-scoails pull-right">
-              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!--/Footer--> 
-  
 </div>
 <!--/Wrapper End--> 
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="../../../ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/owlcarousel/owl.carousel.min.js"></script> 
-<script src="js/custom.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-106074231-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</body>
-
-<!-- Mirrored from fullstacksolution.net/demo/hireahelper/aboutus.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Nov 2022 21:17:27 GMT -->
-</html>
+@endslot
+</x-layout>
